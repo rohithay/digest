@@ -16,6 +16,11 @@ A tool for analyzing responsible AI publications to identify key themes, trends,
 * `logs/` - For application logs
 * `output/` - For analysis results
 
+## Getting Started
+1. Clone the repository
+2. Install dependencies (BeautifulSoup, PyTorch, Transformers, Streamlit, etc.)
+3. Run the full pipeline with python main.py --all
+4. Launch the dashboard with streamlit run app.py
 
 ## Usage
 
