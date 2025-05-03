@@ -1,31 +1,117 @@
-# configuration for publication sources
-publications:
-  - name: "Digital Futures Lab"
-    url: "https://digitalfutureslab.com/blog"
+# Academic & Research Organizations
+- name: "Ethics and Governance of AI Initiative"
+    url: "https://aiethicsinitiative.org/resources"
     type: "website"
     scraper: "generic_web"
-    tags: ["policy", "critical-tech", "governance"]
+    tags: ["academic", "governance", "research"]
     
-  - name: "Montreal AI Ethics Institute"
-    url: "https://montrealethics.ai/blog/"
+  - name: "The Alan Turing Institute"
+    url: "https://www.turing.ac.uk/research/interest-groups/ai-ethics-and-society"
     type: "website"
     scraper: "generic_web"
-    tags: ["academic", "institute", "applied-ethics"]
+    tags: ["academic", "research", "policy"]
     
-  - name: "Partnership on AI"
-    url: "https://partnershiponai.org/resources/"
+  - name: "Berkman Klein Center for Internet & Society"
+    url: "https://cyber.harvard.edu/topics/ai-machine-learning"
     type: "website"
     scraper: "generic_web"
-    tags: ["industry", "multi-stakeholder", "research"]
+    tags: ["academic", "governance", "policy"]
     
-  - name: "AI Now Institute"
-    url: "https://ainowinstitute.org/publications"
+  - name: "Center for the Governance of AI"
+    url: "https://governance.ai/research/"
     type: "website"
     scraper: "generic_web"
-    tags: ["policy", "social-impact", "academic"]
+    tags: ["governance", "existential-risk", "policy"]
     
-  - name: "Center for AI Safety"
-    url: "https://www.safe.ai/blog"
+  - name: "Human-Centered Artificial Intelligence at Stanford"
+    url: "https://hai.stanford.edu/blog"
     type: "website"
     scraper: "generic_web"
-    tags: ["safety", "alignment", "research"]
+    tags: ["academic", "human-centered", "interdisciplinary"]
+
+# Industry & Multi-Stakeholder Organizations
+- name: "AI Ethics Lab"
+    url: "https://aiethicslab.com/insights/"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["ethics", "industry", "advisory"]
+    
+  - name: "Holistic AI"
+    url: "https://holisticai.com/blog"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["industry", "governance", "responsible-ai"]
+    
+  - name: "UNESCO AI Ethics Observatory"
+    url: "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["governance", "international", "policy"]
+    
+  - name: "Data & Society Research Institute"
+    url: "https://datasociety.net/research/"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["sociotechnical", "critical-studies", "justice"]
+
+# Civil Society & Independent Organizations
+- name: "The Ethics of AI Journal"
+    url: "https://www.aiethicsjournal.org/articles"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["academic", "ethics", "peer-reviewed"]
+    
+  - name: "Doteveryone"
+    url: "https://doteveryone.org.uk/publications/"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["responsible-tech", "civil-society", "policy"]
+    
+  - name: "DataEthics"
+    url: "https://dataethics.eu/publications/"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["data-ethics", "european", "policy"]
+    
+  - name: "The Future Society"
+    url: "https://thefuturesociety.org/publications/"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["governance", "policy", "global"]
+
+  - name: "Institute for Ethical AI & Machine Learning"
+    url: "https://ethical.institute/research.html"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["technical", "industry", "standards"]
+
+# Specialized Focus Areas   
+- name: "AI Alignment Forum"
+    url: "https://www.alignmentforum.org/"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["alignment", "safety", "technical"]
+    
+  - name: "Data Justice Lab"
+    url: "https://datajusticelab.org/data-harm-record/"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["justice", "data-rights", "critical-studies"]
+    
+  - name: "Ethics Unwrapped"
+    url: "https://ethicsunwrapped.utexas.edu/blog"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["ethics", "education", "applied-ethics"]
+    
+  - name: "Algorithmic Justice League"
+    url: "https://www.ajl.org/library"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["justice", "bias", "advocacy"]
+
+  - name: "Electronic Frontier Foundation - AI"
+    url: "https://www.eff.org/issues/ai"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["digital-rights", "policy", "advocacy"]
