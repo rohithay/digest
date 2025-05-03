@@ -1,0 +1,445 @@
+- author: Joe Mullin
+  content: "Espa\xF1ol\n\nCalifornia legislators have begun debating a bill (A.B.\
+    \ 412) that would require AI developers to track and disclose every registered\
+    \ copyrighted work used in AI training. At first glance, this might sound like\
+    \ a reasonable step toward transparency. But it\u2019s an impossible standard\
+    \ that could crush small AI startups and developers while giving big tech firms\
+    \ even more power.\nA Burden That Small Developers Can\u2019t Bear\nThe AI landscape\
+    \ is in danger of being dominated by large companies with deep pockets. These\
+    \ big names are in the news almost daily. But they\u2019re far from the only ones\
+    \ \u2013 there are dozens of AI companies with fewer than 10 employees trying\
+    \ to build something new in a particular niche.\_\nThis bill demands that creators\
+    \ of any AI model\u2013even a two-person company or a hobbyist tinkering with\
+    \ a small software build\u2013 identify copyrighted materials used in training.\_\
+    \ That requirement will be incredibly onerous, even if limited just to works registered\
+    \ with the U.S. Copyright Office. The registration system is a cumbersome beast\
+    \ at best\u2013neither machine-readable nor accessible, it\u2019s more like a\
+    \ card catalog than a database\u2013that doesn\u2019t offer information sufficient\
+    \ to identify all authors of a work,\_ much less help developers to reliably match\
+    \ works in a training set to works in the system. \nEven for major tech companies,\
+    \ meeting these new obligations\_ would be a daunting task. For a small startup,\
+    \ throwing on such an impossible requirement could be a death sentence. If A.B.\
+    \ 412 becomes law, these smaller players will be forced to devote scarce resources\
+    \ to an unworkable compliance regime instead of focusing on development and innovation.\
+    \ The risk of lawsuits\u2014potentially from copyright trolls\u2014would discourage\
+    \ new startups from even attempting to enter the field.\nA.I. Training Is Like\
+    \ Reading And It\u2019s Very Likely Fair Use\_\nA.B. 412 starts from a premise\
+    \ that\u2019s both untrue and harmful to the public interest: that reading, scraping\
+    \ or searching of open web content shouldn\u2019t be allowed without payment.\
+    \ In reality, courts should, and we believe will, find that the great majority\
+    \ of this activity is fair use.\_\nIt\u2019s now bedrock internet law principle\
+    \ that some forms of copying content online are transformative, and thus legal\
+    \ fair use. That includes reproducing thumbnail images for image search, or snippets\
+    \ of text to search books.\_\nThe U.S. copyright system is meant to balance innovation\
+    \ with creator rights, and courts are still working through how copyright applies\
+    \ to AI training. In most of the AI cases, courts have yet to consider\u2014let\
+    \ alone decide\u2014how fair use applies. A.B. 412 jumps the gun, preempting this\
+    \ process and imposing a vague, overly broad standard that will do more harm than\
+    \ good.\nImportantly, those key court cases are all federal. The U.S. Constitution\
+    \ makes it clear that copyright is governed by federal law, and A.B. 412 improperly\
+    \ attempts to impose state-level copyright regulations on an issue still in flux.\_\
+    \nA.B. 412 Is A Gift to Big Tech\nThe irony of A.B. 412 is that it won\u2019t\
+    \ stop AI development\u2014it will simply consolidate it in the hands of the largest\
+    \ corporations. Big tech firms already have the resources to navigate complex\
+    \ legal and regulatory environments, and they can afford to comply (or at least\
+    \ appear to comply) with A.B. 412\u2019s burdensome requirements. Small developers,\
+    \ on the other hand, will either be forced out of the market or driven into partnerships\
+    \ where they lose their independence. The result will be less competition, fewer\
+    \ innovations, and a tech landscape even more dominated by a handful of massive\
+    \ companies.\nIf lawmakers are able to iron out some of the practical problems\
+    \ with A.B. 412 and pass some version of it, they may be able to force programmers\
+    \ to research\u2013and effectively, pay off\u2013copyright owners before they\
+    \ even write a line of code. If that\u2019s the outcome in California, Big Tech\
+    \ will not despair. They\u2019ll celebrate. Only a few companies own large content\
+    \ libraries or can afford to license enough material to build a deep learning\
+    \ model. The possibilities for startups and small programmers will be so meager,\
+    \ and competition will be so limited, that profits for big incumbent companies\
+    \ will be locked in for a generation.\_\nIf you are a California resident and\
+    \ want to speak out about A.B. 412, you can find and contact your legislators\
+    \ through this website."
+  date: '2025-03-17T15:55:18-07:00'
+  id: 22ccd20d6fab1b6eeee78a180172cf4b
+  publication: Electronic Frontier Foundation - AI
+  tags: &id001
+  - digital-rights
+  - policy
+  - advocacy
+  title: "California\u2019s A.B. 412: A Bill That Could Crush Startups and Cement\
+    \ A Big Tech AI Monopoly"
+  url: https://www.eff.org/deeplinks/2025/03/californias-ab-412-bill-could-crush-startups-and-cement-big-tech-ai-monopoly
+- author: Unknown Author
+  content: "Deeplinks Blog\n by Hayley Tsukayama\n | May 1, 2025\n Washington\u2019\
+    s Right to Repair Bill Heads to the Governor\n\n\nThe right to repair just keeps\
+    \ on winning. Last week, thanks in part to messages from EFF supporters, the Washington\
+    \ legislature passed a strong consumer electronics right-to-repair legislation\
+    \ through both the House and Senate. The bill affirms our right to repair by banning\
+    \ restrictions that keep people and local businesses..."
+  date: Unknown Date
+  id: bf771f9aae7bf125cb3c0d6ba75a2ec4
+  publication: Electronic Frontier Foundation - AI
+  tags: *id001
+  title: Deeplinks Blog
+  url: https://www.eff.org/updates?type=blog
+- author: Unknown Author
+  content: "Joe Mullin\n\n\nSenior Policy Analyst and Mark Cuban Chair to Eliminate\
+    \ Stupid PatentsJoe Mullin is a senior policy analyst\_at EFF, where he works\
+    \ on patents, encryption, platform liability, and free expression online. Before\
+    \ joining EFF, Joe\_worked as a reporter covering\_legal affairs\_for\_the technology\
+    \ website Ars Technica, and American Lawyer\u2019s magazine group. Earlier in\
+    \ his journalism career, Joe wrote for The Associated Press and The Seattle Times.\
+    \ He has a bachelors degree in history and a masters in journalism, both from\
+    \ the University of California at Berkeley. Outside of his work at EFF, Joe enjoys\
+    \ trail running and cycling.\n\nEmail Address:\_joe@eff.orgPhone:\_415-436-9333\
+    \ x197X handle:\_@joemullin"
+  date: '2018-11-29T09:04:04-08:00'
+  id: 9b81f315129befea0d619f7540eb06eb
+  publication: Electronic Frontier Foundation - AI
+  tags: *id001
+  title: Joe Mullin
+  url: https://www.eff.org/about/staff/joe-mullin
+- author: Joe Mullin
+  content: "English\nLos legisladores de California han comenzado a debatir un proyecto\
+    \ de ley (A.B. 412) que obligar\xEDa a los desarrolladores de IA a rastrear y\
+    \ divulgar todas las obras registradas con derechos de autor utilizadas en la\
+    \ formaci\xF3n en IA. A primera vista, esto podr\xEDa parecer un paso razonable\
+    \ hacia la transparencia. Sin embargo, se trata de una norma imposible de cumplir\
+    \ que podr\xEDa acabar con las peque\xF1as empresas emergentes y los desarrolladores\
+    \ de IA, al tiempo que otorgar\xEDa a\xFAn m\xE1s poder a las grandes empresas\
+    \ tecnol\xF3gicas.\nUna carga que los peque\xF1os desarrolladores no pueden soportar\n\
+    El panorama de la IA corre el riesgo de quedar dominado por grandes empresas con\
+    \ mucho dinero. Estos grandes nombres aparecen en las noticias casi a diario.\
+    \ Pero no son los \xFAnicos: hay docenas de empresas de IA con menos de 10 empleados\
+    \ que intentan crear algo nuevo en un nicho concreto.\nEste proyecto de ley exige\
+    \ que los creadores de cualquier modelo de IA, incluso una empresa de dos personas\
+    \ o un aficionado que juega con un peque\xF1o programa inform\xE1tico, identifiquen\
+    \ los materiales protegidos por derechos de autor utilizados en la formaci\xF3\
+    n. Este requisito ser\xE1 incre\xEDblemente oneroso, incluso si se limita a las\
+    \ obras registradas en la Oficina de Derechos de Autor de Estados Unidos. El sistema\
+    \ de registro es, en el mejor de los casos, engorroso \u2014no es legible por\
+    \ m\xE1quinas ni accesible, se parece m\xE1s a un cat\xE1logo de fichas que a\
+    \ una base de datos\u2014 y no ofrece informaci\xF3n suficiente para identificar\
+    \ a todos los autores de una obra, y mucho menos para ayudar a los desarrolladores\
+    \ a emparejar de forma fiable las obras de un conjunto de entrenamiento con las\
+    \ del sistema.\nIncluso para las grandes empresas tecnol\xF3gicas, cumplir estas\
+    \ nuevas obligaciones ser\xEDa una tarea tit\xE1nica. Para una peque\xF1a empresa\
+    \ emergente, imponer un requisito tan imposible podr\xEDa suponer una sentencia\
+    \ de muerte. Si la A.B. 412 se convierte en ley, estas peque\xF1as empresas se\
+    \ ver\xE1n obligadas a dedicar sus escasos recursos a un r\xE9gimen de cumplimiento\
+    \ inviable, en lugar de centrarse en el desarrollo y la innovaci\xF3n. El riesgo\
+    \ de demandas judiciales, potencialmente por parte de trolls de derechos de autor,\
+    \ disuadir\xEDa a las nuevas empresas emergentes de siquiera intentar entrar en\
+    \ este campo.\nEl entrenamiento de la IA es como leer y es muy probable que sea\
+    \ un uso leg\xEDtimo\nLa A.B. 412 parte de una premisa que es falsa y perjudicial\
+    \ para el inter\xE9s p\xFAblico: que no se debe permitir la lectura, el scraping\
+    \ o la b\xFAsqueda de contenidos web abiertos sin pago. En realidad, los tribunales\
+    \ deber\xEDan considerar, y creemos que lo har\xE1n, que la gran mayor\xEDa de\
+    \ estas actividades constituyen un uso leg\xEDtimo.\nActualmente, es un principio\
+    \ fundamental del derecho de Internet que algunas formas de copiar contenido en\
+    \ l\xEDnea son transformadoras y, por lo tanto, constituyen un uso leg\xEDtimo.\
+    \ Esto incluye la reproducci\xF3n de im\xE1genes en miniatura para la b\xFAsqueda\
+    \ de im\xE1genes o fragmentos de texto para buscar libros.\nEl sistema de derechos\
+    \ de autor de EE. UU. tiene por objeto equilibrar la innovaci\xF3n con los derechos\
+    \ de los creadores, y los tribunales siguen trabajando en la aplicaci\xF3n de\
+    \ los derechos de autor a la formaci\xF3n en IA. En la mayor\xEDa de los casos\
+    \ relacionados con la IA, los tribunales a\xFAn no han examinado, y mucho menos\
+    \ decidido, c\xF3mo se aplica el uso leg\xEDtimo. La A.B. 412 se adelanta a los\
+    \ acontecimientos, imponiendo una norma vaga y excesivamente amplia que har\xE1\
+    \ m\xE1s da\xF1o que bien.\nEs importante se\xF1alar que todos estos casos judiciales\
+    \ clave son federales. La Constituci\xF3n de los Estados Unidos deja claro que\
+    \ los derechos de autor se rigen por la legislaci\xF3n federal, y la A.B. 412\
+    \ intenta imponer indebidamente regulaciones estatales sobre derechos de autor\
+    \ en una cuesti\xF3n que a\xFAn est\xE1 en evoluci\xF3n.\nLa A.B. 412 es un regalo\
+    \ para las grandes empresas tecnol\xF3gicas\nLa iron\xEDa de la A.B. 412 es que\
+    \ no detendr\xE1 el desarrollo de la IA, sino que simplemente lo consolidar\xE1\
+    \ en manos de las grandes empresas. Las grandes empresas tecnol\xF3gicas ya cuentan\
+    \ con los recursos necesarios para navegar por entornos legales y normativos complejos,\
+    \ y pueden permitirse cumplir (o al menos aparentar cumplir) los onerosos requisitos\
+    \ de la A.B. 412. Los peque\xF1os desarrolladores, por su parte, se ver\xE1n obligados\
+    \ a abandonar el mercado o a asociarse, con lo que perder\xE1n su independencia.\
+    \ El resultado ser\xE1 una menor competencia, menos innovaciones y un panorama\
+    \ tecnol\xF3gico a\xFAn m\xE1s dominado por un pu\xF1ado de empresas gigantes.\n\
+    Si los legisladores logran resolver algunos de los problemas pr\xE1cticos de la\
+    \ ley A.B. 412 y aprueban alguna versi\xF3n de la misma, podr\xEDan obligar a\
+    \ los programadores a investigar \u2014y, en la pr\xE1ctica, pagar\u2014 a los\
+    \ propietarios de los derechos de autor antes incluso de escribir una l\xEDnea\
+    \ de c\xF3digo. Si ese es el resultado en California, las grandes empresas tecnol\xF3\
+    gicas no se desesperar\xE1n. Lo celebrar\xE1n. Solo unas pocas empresas poseen\
+    \ grandes bibliotecas de contenidos o pueden permitirse adquirir licencias para\
+    \ suficiente material como para crear un modelo de aprendizaje profundo. Las posibilidades\
+    \ para las empresas emergentes y los peque\xF1os programadores ser\xE1n tan escasas,\
+    \ y la competencia tan limitada, que los beneficios de las grandes empresas ya\
+    \ establecidas quedar\xE1n asegurados durante una generaci\xF3n.\nSi eres residente\
+    \ en California y deseas expresar tu opini\xF3n sobre la A.B. 412, puedes encontrar\
+    \ y contactar con tus legisladores a trav\xE9s de este sitio web."
+  date: '2025-03-17T15:55:18-07:00'
+  id: 661f589fa1793f6ea868fa029af05f19
+  publication: Electronic Frontier Foundation - AI
+  tags: *id001
+  title: "California\u2019s A.B. 412: A Bill That Could Crush Startups and Cement\
+    \ A Big Tech AI Monopoly"
+  url: https://www.eff.org/deeplinks/2025/03/californias-ab-412-bill-could-crush-startups-and-cement-big-tech-ai-monopoly?language=es
+- author: Rory Mir
+  content: "This past January the new administration issued an executive order on\
+    \ Artificial Intelligence (AI), taking the place of the now rescinded Biden-era\
+    \ order, calling for a new AI Action Plan tasked with \u201Cunburdening\u201D\
+    \ the current AI industry to stoke innovation and remove \u201Cengineered social\
+    \ agendas\u201D from the industry. This new action plan for the president is currently\
+    \ being developed and open to public comments to the National Science Foundation\
+    \ (NSF).\nEFF answered with a few clear points: First, government procurement\
+    \ of decision-making (ADM) technologies must be done with transparency and public\
+    \ accountability\u2014no secret and untested algorithms should decide who keeps\
+    \ their job or who is denied safe haven in the United States. Second, Generative\
+    \ AI policy rules must be narrowly focused and proportionate to actual harms,\
+    \ with an eye on protecting other public interests. And finally, we shouldn't\
+    \ entrench the biggest companies and gatekeepers with AI licensing schemes.\n\
+    Government Automated Decision Making\nUS procurement of AI has moved with remarkable\
+    \ speed and an alarming lack of transparency. By wasting money on systems with\
+    \ no proven track record, this procurement not only entrenches the largest AI\
+    \ companies, but risks infringing the civil liberties of all people subject to\
+    \ these automated decisions.\nThese harms aren\u2019t theoretical, we have already\
+    \ seen a move to adopt experimental AI tools in policing and national security,\
+    \ including immigration enforcement. Recent reports also indicate the Department\
+    \ of Government Efficiency (DOGE) intends to apply AI to evaluate federal workers,\
+    \ and use the results to make decisions about their continued employment. \nAutomating\
+    \ important decisions about people is reckless and dangerous. At best these new\
+    \ AI tools are ineffective nonsense machines which require more labor to correct\
+    \ inaccuracies, but at worst result in irrational and discriminatory outcomes\
+    \ obscured by the blackbox nature of the technology.\nInstead, the adoption of\
+    \ such tools must be done with a robust public notice-and-comment practice as\
+    \ required by the Administrative Procedure Act. This process helps weed out wasteful\
+    \ spending on AI snake oil, and identifies when the use of such AI tools are inappropriate\
+    \ or harmful. \nAdditionally, the AI action plan should favor tools developed\
+    \ under the principles of free and open-source software. These principles are\
+    \ essential for evaluating the efficacy of these models, and ensure they uphold\
+    \ a more fair and scientific development process. Furthermore, more open development\
+    \ stokes innovation and ensures public spending ultimately benefits the public\u2014\
+    not just the most established companies. \nDon\u2019t Enable Powerful Gatekeepers\n\
+    Spurred by the general anxiety about Generative AI, lawmakers have drafted sweeping\
+    \ regulations based on speculation, and with little regard for the multiple public\
+    \ interests at stake. Though there are legitimate concerns, this reactionary approach\
+    \ to policy is exactly what we warned against back in 2023.\nFor example, bills\
+    \ like NO FAKES and NO AI Fraud expand copyright laws to favor corporate giants\
+    \ over everyone else\u2019s expression. NO FAKES even includes a scheme for a\
+    \ DMCA-like notice takedown process, long bemoaned by creatives online for encouraging\
+    \ broader and automated online censorship. Other policymakers propose technical\
+    \ requirements like watermarking that are riddled with practical points of failure.\
+    \ \nAmong these dubious solutions is the growing prominence of AI licensing schemes\
+    \ which limit the potential of AI development to the highest bidders. This intrusion\
+    \ on fair use creates a paywall protecting only the biggest tech and media publishing\
+    \ companies\u2014cutting out the actual creators these licenses nominally protect.\
+    \ It\u2019s like helping a bullied kid by giving them more lunch money to give\
+    \ their bully. \nThis is the wrong approach. Looking for easy solutions like expanding\
+    \ copyright, hurts everyone. Particularly smaller artists, researchers, and businesses\
+    \ who cannot compete with the big gatekeepers of industry. AI has threatened the\
+    \ fair pay and treatment of creative labor, but sacrificing secondary use doesn\u2019\
+    t remedy the underlying imbalance of power between labor and oligopolies. \nPeople\
+    \ have a right to engage with culture and express themselves unburdened by private\
+    \ cartels. Policymakers should focus on narrowly crafted policies to preserve\
+    \ these rights, and keep rulemaking constrained to tested solutions addressing\
+    \ actual harms.\nYou can read our comments here.\n Electronic Frontier Foundation\
+    \ Comments on AI Action Plan"
+  date: '2025-03-13T15:53:17-07:00'
+  id: b3679d005b277ca60723ba95185c9810
+  publication: Electronic Frontier Foundation - AI
+  tags: *id001
+  title: 'EFF to NSF: AI Action Plan Must Put People First'
+  url: https://www.eff.org/deeplinks/2025/03/eff-nsf-ai-action-plan-must-put-people-first
+- author: Unknown Author
+  content: "Associate Director of Community OrganizingAs Associate Director of Community\
+    \ Organizing, Rory (they/them) coordinates EFF's support of local advocacy groups.\
+    \ Much of this work is done through the grassroots information-sharing network,\
+    \ the Electronic Frontier Alliance (EFA).\nPrior to joining the EFF, Rory researched\
+    \ activist pedagogy and adolescent use of social media. As a graduate student,\
+    \ they advocated for student and worker privacy, open science, and open education\
+    \ on campus. They were also active in several New York City community projects\
+    \ like CyPurr Collective, an EFA member group focused on accessible digital security\
+    \ trainings.Rory believes in the potential for digital technology to support more\
+    \ autonomous communities and social equity. As such, they connect these principles\
+    \ to a variety of topic areas such as decentralization, artificial intelligence,\
+    \ competition, and Right to Repair.\nEmail Address:\_rory@eff.orgMastodon:\_https://masto.nyc/@falsemirrorFeatured\
+    \ Blog Post:\_\n\nDeeplinks Blog\n by Rory Mir\n | August 1, 2024\n CrowdStrike,\
+    \ Antitrust, and the Digital Monoculture\n\n\nEspa\xF1ol\nLast month\u2019s unprecedented\
+    \ global IT failure should be a wakeup call. Decades of antitrust inaction have\
+    \ made many industries dangerously reliant on the same tools, making such crises\
+    \ inevitable. We must demand regulators break up the digital monocultures that\
+    \ are creating a less competitive, less safe, and less free... \nRead more about\
+    \ CrowdStrike, Antitrust, and the Digital Monoculture"
+  date: '2020-03-20T17:23:49-07:00'
+  id: b3ad6b3a1774cccc4631f3b01ef0f928
+  publication: Electronic Frontier Foundation - AI
+  tags: *id001
+  title: Rory Mir
+  url: https://www.eff.org/about/staff/rory-mir
+- author: Svea Windwehr
+  content: "Espa\xF1ol\nEver since Chat-GPT\u2019s debut, artificial intelligence\
+    \ (AI) has been the center of worldwide discussions on the promises and perils\
+    \ of new technologies. This has spawned a flurry of debates on the governance\
+    \ and regulation of large language models and \u201Cgenerative\u201D AI, which\
+    \ have, among others, resulted in the Biden administration\u2019s executive order\
+    \ on AI and international guiding principles for the development of generative\
+    \ AI and influenced Europe\u2019s AI Act. As part of that global policy discussion,\
+    \ the UK government hosted the AI Safety Summit in 2023, which was followed in\
+    \ 2024 by the AI Seoul Summit, leading up to this year\u2019s AI Action Summit\
+    \ hosted by France. \nAs heads of states and CEOs are heading to Paris for the\
+    \ AI Action Summit, the summit\u2019s shortcomings are becoming glaringly obvious.\
+    \ The summit, which is hosted by the French government, has been described as\
+    \ a \u201Cpivotal moment in shaping the future of artificial intelligence governance\u201D\
+    . However, a closer look at its agenda and the voices it will amplify tells a\
+    \ different story. \nFocusing on AI\u2019s potential economic contributions, and\
+    \ not differentiating between for example large language models and automated\
+    \ decision-making, the summit fails to take into account the many ways in which\
+    \ AI systems can be abused to undermine fundamental rights and push the planet's\
+    \ already stretched ecological limits over the edge. Instead of centering nuanced\
+    \ perspectives on the capabilities of different AI systems and associated risks,\
+    \ the summit\u2019s agenda paints a one-sided and simplistic image, not reflective\
+    \ of global discussion on AI governance. For example, the summit\u2019s main program\
+    \ does not include a single panel addressing issues related to discrimination\
+    \ or sustainability.\nA summit captured by industry interests cannot claim to\
+    \ be a transformative venue\nThis imbalance is also mirrored in the summit\u2019\
+    s speakers, among which industry representatives notably outnumber civil society\
+    \ leaders. While many civil society organizations are putting on side events to\
+    \ counterbalance the summit\u2019s misdirected priorities, an exclusive summit\
+    \ captured by industry interests cannot claim to be a transformative venue for\
+    \ global policy discussions. \nThe summit\u2019s significant shortcomings are\
+    \ especially problematic in light of the leadership role European countries are\
+    \ claiming when it comes to the governance of the AI. The European Union\u2019\
+    s AI Act, which recently entered into force, has been celebrated as the world\u2019\
+    s first legal framework addressing the risks of AI. However, whether the AI Act\
+    \ will actually \u201Cpromote the uptake of human centric and trustworthy artificial\
+    \ intelligence\u201D remains to be seen.\_\nIt's unclear if the AI Act will provide\
+    \ a framework that incentivizes the roll out of user-centric AI tools or whether\
+    \ it will lock-in specific technologies at the expense of users. We like that\
+    \ the new rules contain a lot of promising language on fundamental rights protection,\
+    \ however, exceptions for law enforcement and national security render some of\
+    \ the safeguards fragile. This is especially true when it comes to the use of\
+    \ AI systems in high-risks contexts such as migration, asylum, border controls,\
+    \ and public safety, where the AI Act does little to protect against mass surveillance\
+    \ and profiling and predictive technologies. We are also concerned by the\_ possibility\
+    \ that other governments will copy-paste the AI Act\u2019s broad exceptions without\
+    \ having the strong constitutional and human rights protections that exist within\
+    \ the EU legal system. We will therefore keep a close eye on how the AI Act is\
+    \ enforced in practice.\nThe summit also lags in addressing the essential role\
+    \ human rights should play in providing a common baseline for AI deployment, especially\
+    \ in high-impact uses. Although human-rights-related concerns appear in a few\
+    \ sessions, the Summit as purportedly a global forum aimed at unleashing the potential\
+    \ of AI for the public good and in the public interest, at a minimum, seems to\
+    \ miss the opportunity to clearly articulate how such a goal connects with fulfilling\
+    \ international human rights guarantees and which steps this entail. \nCountries\
+    \ must address the AI divide without replicating AI harms.\nRamping up government\
+    \ use of AI systems is generally a key piece in national strategies for AI development\
+    \ worldwide. While countries must address the AI divide, doing so must not mean\
+    \ replicating AI harms. For example, we\u2019ve elaborated on leveraging Inter-American\
+    \ human rights standards to tackle challenges and violations that emerge from\
+    \ public institutions\u2019 use of algorithmic systems for rights-affecting determinations\
+    \ in Latin America. \nIn times of a global AI arms race, we do not need more hype\
+    \ for AI. Rather, there is a crucial need for evidence-based policy debates that\
+    \ address AI power centralization and consider the real-world harms associated\
+    \ with AI systems\u2014while enabling diverse stakeholders to engage at eye level.\
+    \ The AI Action Summit will not be the place to have this conversation."
+  date: '2025-02-10T10:13:51-08:00'
+  id: 3ea5fb6bc0dd5458b09ba50ae5945b62
+  publication: Electronic Frontier Foundation - AI
+  tags: *id001
+  title: Why the So-Called AI Action Summit Falls Short
+  url: https://www.eff.org/deeplinks/2025/02/why-so-called-ai-action-summit-falls-short
+- author: Unknown Author
+  content: "Svea Windwehr\n\n\nAssistant Director of EU PolicySvea Windwehr is EFF's\
+    \ Assistant Director of EU Policy, focusing on issues related to platform regulation,\
+    \ user rights, surveillance, and artificial intelligence. Before joining EFF,\
+    \ Svea headed the Center for User Rights at the strategic litigation NGO \"Society\
+    \ for Civil Rights\" in Berlin, dedicated to strengthening and enforcing user\
+    \ rights. Previously, she worked at Google, was a Mercator Fellow at the German\
+    \ Ministry of Labour & Social Affairs and EFF, and served as an inter-institutional\
+    \ coordinator at the European Commission\u2019s DG CONNECT. Svea is the co-chair\
+    \ of the nonprofit D64 \u2013 Center for Digital Progress e.V. and serves on the\
+    \ board of the German Digital Services Coordinator, which oversees the enforcement\
+    \ of the Digital Services Act.\_ Svea studied political science, international\
+    \ affairs, and law in Maastricht and Berkeley, and holds a master's degree from\
+    \ the Internet Institute at the University of Oxford.\_\nEmail Address:\_svea@eff.org\
+    \ X handle:\_@sveawindwehr"
+  date: '2024-09-17T10:33:51-07:00'
+  id: f4d29ffe6ac22e0adf32d4996ac4d011
+  publication: Electronic Frontier Foundation - AI
+  tags: *id001
+  title: Svea Windwehr
+  url: https://www.eff.org/about/staff/svea-windwehr
+- author: Svea Windwehr
+  content: "English\nDesde el debut de Chat-GPT, la inteligencia artificial (IA) ha\
+    \ sido el centro de los debates mundiales sobre las promesas y los peligros de\
+    \ las nuevas tecnolog\xEDas. Esto ha generado una serie de debates sobre la gobernanza\
+    \ y la regulaci\xF3n de la IA, que han dado lugar, entre otros, a la Ley de IA\
+    \ de Europa, la orden ejecutiva sobre IA de la administraci\xF3n Biden y los principios\
+    \ rectores internacionales para el desarrollo de la IA. Como parte de ese debate\
+    \ pol\xEDtico global, el gobierno del Reino Unido organiz\xF3 la Cumbre de Seguridad\
+    \ de la IA en 2023, a la que sigui\xF3 en 2024 la Cumbre de la IA de Se\xFAl,\
+    \ que condujo a la Cumbre de Acci\xF3n de la IA de este a\xF1o, organizada por\
+    \ Francia.\nMientras los jefes de Estado y los directores ejecutivos se dirigen\
+    \ a Par\xEDs para la Cumbre de Acci\xF3n sobre IA, sus deficiencias se est\xE1\
+    n volviendo evidentes. La cumbre, organizada por el gobierno franc\xE9s, ha sido\
+    \ descrita como un \xABmomento crucial para configurar el futuro de la gobernanza\
+    \ de la inteligencia artificial\xBB. Sin embargo, una mirada m\xE1s cercana a\
+    \ su agenda y a las voces que amplificar\xE1 cuenta una historia diferente.\n\
+    Al centrarse en las posibles contribuciones econ\xF3micas de la IA, la cumbre\
+    \ no tiene en cuenta\_las muchas y variadas\_formas en que los sistemas de IA\
+    \ pueden ser utilizados indebidamente para\_socavar los derechos fundamentales\
+    \ y\_llevar al l\xEDmite los ya de por s\xED sobrecargados l\xEDmites ecol\xF3\
+    gicos del planeta. En lugar de centrarse en perspectivas matizadas sobre las capacidades\
+    \ de los sistemas de IA y los riesgos asociados, la\_agenda de la cumbre pinta\
+    \ una imagen unilateral y simplista, que no refleja el debate global sobre la\
+    \ gobernanza de la IA. Este desequilibrio tambi\xE9n se refleja en los ponentes\
+    \ de la cumbre, entre los que los representantes de la industria superan notablemente\
+    \ en n\xFAmero a los l\xEDderes de la sociedad civil. Mientras que muchas organizaciones\
+    \ de la sociedad civil est\xE1n organizando eventos paralelos para contrarrestar\
+    \ las prioridades err\xF3neas de la cumbre.\nUna cumbre exclusiva capturada por\
+    \ los intereses de la industria no puede pretender ser un lugar transformador\
+    \ para los debates pol\xEDticos mundiales.\nLas importantes deficiencias de la\
+    \ cumbre son especialmente problem\xE1ticas a la luz del papel de liderazgo que\
+    \ est\xE1n reclamando los pa\xEDses europeos en lo que respecta a la gobernanza\
+    \ de la IA. La Ley de IA de la Uni\xF3n Europea, que entr\xF3 en vigor recientemente,\
+    \ ha sido celebrada como el primer marco legal del mundo que aborda los riesgos\
+    \ de la IA. Sin embargo, a\xFAn est\xE1 por ver si la Ley de IA realmente \xAB\
+    promover\xE1 la adopci\xF3n de una inteligencia artificial fiable y centrada en\
+    \ el ser humano\xBB. No est\xE1 claro si la Ley de IA proporcionar\xE1 un marco\
+    \ que incentive el despliegue de herramientas de IA centradas en el usuario o\
+    \ si bloquear\xE1 tecnolog\xEDas espec\xEDficas a expensas de los usuarios. Nos\
+    \ gusta que las nuevas normas contengan un lenguaje muy prometedor sobre la protecci\xF3\
+    n de los derechos fundamentales, sin embargo, las excepciones para las fuerzas\
+    \ del orden y la seguridad nacional hacen que algunas de las salvaguardias sean\
+    \ fr\xE1giles. Esto es especialmente cierto cuando se trata del uso de sistemas\
+    \ de IA en contextos de alto riesgo como la migraci\xF3n, el asilo, los controles\
+    \ fronterizos y la seguridad p\xFAblica, donde la Ley de IA hace poco para proteger\
+    \ contra la vigilancia masiva y la polic\xEDa predictiva. Tambi\xE9n nos preocupa\
+    \ la posibilidad de que otros gobiernos copien y peguen las amplias excepciones\
+    \ de la Ley de IA sin contar con las s\xF3lidas protecciones constitucionales\
+    \ y de derechos humanos que existen en el sistema jur\xEDdico de la UE. Por lo\
+    \ tanto, vigilaremos de cerca c\xF3mo se aplica la Ley de IA en la pr\xE1ctica.\n\
+    La cumbre tambi\xE9n se queda corta a la hora de abordar el papel esencial que\
+    \ deber\xEDan desempe\xF1ar los derechos humanos a la hora de proporcionar una\
+    \ base com\xFAn para el despliegue de la IA, especialmente en usos de alto impacto.\
+    \ Aunque en algunas sesiones aparecen preocupaciones relacionadas con los derechos\
+    \ humanos, la Cumbre, como foro mundial destinado a liberar el potencial de la\
+    \ IA para el bien p\xFAblico y el inter\xE9s p\xFAblico, como m\xEDnimo, parece\
+    \ perder la oportunidad de articular claramente c\xF3mo ese objetivo se relaciona\
+    \ con el cumplimiento de las garant\xEDas internacionales de derechos humanos\
+    \ y qu\xE9 pasos implica esto. \nLos pa\xEDses deben abordar la brecha de la IA\
+    \ sin replicar sus perjuicios.\nAumentar el uso gubernamental de los sistemas\
+    \ de IA es generalmente una pieza clave de las estrategias nacionales para el\
+    \ desarrollo de la IA. Si bien los pa\xEDses deben abordar la brecha de la IA,\
+    \ hacerlo no debe significar replicar los da\xF1os de la IA. Por ejemplo, hemos\
+    \ elaborado sobre el aprovechamiento de las normas interamericanas de derechos\
+    \ humanos para abordar los desaf\xEDos y las violaciones que surgen del uso de\
+    \ las instituciones p\xFAblicas de sistemas algor\xEDtmicos para las determinaciones\
+    \ que afectan a los derechos en Am\xE9rica Latina.\nEn tiempos de una carrera\
+    \ armament\xEDstica de la IA a nivel global, no necesitamos m\xE1s exageraciones\
+    \ sobre ella. M\xE1s bien, existe una necesidad crucial de debates pol\xEDticos\
+    \ basados en pruebas que aborden la centralizaci\xF3n del poder de la IA y consideren\
+    \ los da\xF1os del mundo real asociados a los sistemas de IA, al tiempo que permitan\
+    \ a las diversas partes interesadas participar en igualdad de condiciones. La\
+    \ Cumbre de Acci\xF3n de IA no ser\xE1 el lugar para tener esta conversaci\xF3\
+    n."
+  date: '2025-02-10T10:13:51-08:00'
+  id: 0201ebbe8d3dd8a2436f248d0d4b3d90
+  publication: Electronic Frontier Foundation - AI
+  tags: *id001
+  title: "Por qu\xE9 la \xABcumbre de acci\xF3n sobre la IA\xBB se queda corta"
+  url: https://www.eff.org/deeplinks/2025/02/why-so-called-ai-action-summit-falls-short?language=es

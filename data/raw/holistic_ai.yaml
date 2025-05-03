@@ -1,0 +1,84 @@
+- author: Unknown Author
+  content: Content not found
+  date: Unknown Date
+  id: b2d82ac05cf74199191f213f452fb40d
+  publication: Holistic AI
+  tags: &id001
+  - industry
+  - governance
+  - responsible-ai
+  title: The Holistic AI Blog
+  url: https://holisticai.com/blog
+- author: Unknown Author
+  content: Content not found
+  date: April 7, 2025
+  id: 38f759b183aa078eaa739677adb183aa
+  publication: Holistic AI
+  tags: *id001
+  title: AI Agents are Changing Business, Governance will Define Who Wins
+  url: https://holisticai.com/blog/ai-agents-governance-business
+- author: Unknown Author
+  content: Content not found
+  date: March 11, 2025
+  id: 0ab949b338b5f200f4c5e6e15c80bfa9
+  publication: Holistic AI
+  tags: *id001
+  title: 'AI Governance vs Data Governance: Why Enterprises Need an AI-Native Platform'
+  url: https://holisticai.com/blog/ai-governance-vs-data-governance
+- author: Unknown Author
+  content: Content not found
+  date: February 20, 2025
+  id: a156cf776ac8c23cfaaab193ae582553
+  publication: Holistic AI
+  tags: *id001
+  title: What is the EU AI Act?
+  url: https://holisticai.com/blog/eu-ai-act
+- author: Unknown Author
+  content: Content not found
+  date: February 14, 2025
+  id: ff4d9d76114a436b673d8c515dff1ea0
+  publication: Holistic AI
+  tags: *id001
+  title: Identify High-Risk AI Systems Under the EU AI Act
+  url: https://holisticai.com/blog/identify-high-risk-ai-systems-according-to-eu-ai-act
+- author: Unknown Author
+  content: Content not found
+  date: February 10, 2025
+  id: 5f1215f5876d14a6082befdf08b98f23
+  publication: Holistic AI
+  tags: *id001
+  title: 'Caseware AiDA: Leading the Way in AI Risk Assurance and Security for the
+    Accounting Industry'
+  url: https://holisticai.com/blog/caseware-aida-ai-risk-assurance-security-accounting
+- author: Unknown Author
+  content: Content not found
+  date: February 10, 2025
+  id: a2fbbc9223daedad58a80719866d7c73
+  publication: Holistic AI
+  tags: *id001
+  title: What is AI Governance?
+  url: https://holisticai.com/blog/ai-governance
+- author: Unknown Author
+  content: Content not found
+  date: February 9, 2025
+  id: bab81fce3e06ba90d7e45a6983e50970
+  publication: Holistic AI
+  tags: *id001
+  title: Red Teaming at Holistic AI
+  url: https://holisticai.com/blog/red-teaming-at-holistic-ai
+- author: Unknown Author
+  content: Content not found
+  date: January 23, 2025
+  id: 05c01e1af0ed1ee08590091ac836770e
+  publication: Holistic AI
+  tags: *id001
+  title: 'Penalties of the EU AI Act: The High Cost of Non-Compliance'
+  url: https://holisticai.com/blog/penalties-of-the-eu-ai-act
+- author: Unknown Author
+  content: Content not found
+  date: January 20, 2025
+  id: 7fcd1e013b7eb1496aec2514456c7c6b
+  publication: Holistic AI
+  tags: *id001
+  title: 'LLM Agents: How They Work and Where They Go Wrong'
+  url: https://holisticai.com/blog/llm-agents-use-cases-risks
