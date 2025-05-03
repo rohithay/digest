@@ -1,6 +1,6 @@
 publications:
- # Academic & Research Organizations
- - name: "Ethics and Governance of AI Initiative"
+  # Academic & Research Organizations
+  - name: "Ethics and Governance of AI Initiative"
     url: "https://aiethicsinitiative.org/resources"
     type: "website"
     scraper: "generic_web"
@@ -54,9 +54,9 @@ publications:
     type: "website"
     scraper: "generic_web"
     tags: ["sociotechnical", "critical-studies", "justice"]
-
- # Civil Society & Independent Organizations
- - name: "The Ethics of AI Journal"
+    
+  # Civil Society & Independent Organizations
+  - name: "The Ethics of AI Journal"
     url: "https://www.aiethicsjournal.org/articles"
     type: "website"
     scraper: "generic_web"
@@ -86,8 +86,8 @@ publications:
     scraper: "generic_web"
     tags: ["technical", "industry", "standards"]
 
- # Specialized Focus Areas   
- - name: "AI Alignment Forum"
+  # Specialized Focus Areas   
+  - name: "AI Alignment Forum"
     url: "https://www.alignmentforum.org/"
     type: "website"
     scraper: "generic_web"
