@@ -24,12 +24,8 @@ var/
 venv/
 ENV/
 
-# Data and logs
-data/raw/*
-data/processed/*
-data/embeddings/*
+# Logs
 logs/*
-output/*
 
 # IDE
 .idea/
