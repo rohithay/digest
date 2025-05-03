@@ -1,1 +1,31 @@
 # configuration for publication sources
+publications:
+  - name: "Digital Futures Lab"
+    url: "https://digitalfutureslab.com/blog"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["policy", "critical-tech", "governance"]
+    
+  - name: "Montreal AI Ethics Institute"
+    url: "https://montrealethics.ai/blog/"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["academic", "institute", "applied-ethics"]
+    
+  - name: "Partnership on AI"
+    url: "https://partnershiponai.org/resources/"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["industry", "multi-stakeholder", "research"]
+    
+  - name: "AI Now Institute"
+    url: "https://ainowinstitute.org/publications"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["policy", "social-impact", "academic"]
+    
+  - name: "Center for AI Safety"
+    url: "https://www.safe.ai/blog"
+    type: "website"
+    scraper: "generic_web"
+    tags: ["safety", "alignment", "research"]
