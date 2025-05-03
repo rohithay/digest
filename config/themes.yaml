@@ -1,1 +1,37 @@
 # pre-identified themes for classification
+themes:
+  - name: "Algorithmic Bias"
+    description: "Identifying and mitigating bias in AI systems and the datasets they're trained on"
+    keywords:
+      - bias
+      - fairness
+      - discrimination
+      - equity
+      - demographic
+      - disparity
+      - representation
+      - imbalance
+      
+  - name: "AI Governance"
+    description: "Frameworks, policies, and institutions for governing AI development and deployment"
+    keywords:
+      - regulation
+      - policy
+      - governance
+      - compliance
+      - guidelines
+      - standards
+      - oversight
+      - accountability
+      
+  - name: "AI Safety & Alignment"
+    description: "Ensuring AI systems behave as intended and align with human values"
+    keywords:
+      - safety
+      - alignment
+      - control
+      - harm
+      - existential
+      - catastrophic
+      - values
+      - objectives
