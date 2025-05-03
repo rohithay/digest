@@ -1,0 +1,410 @@
+- author: Unknown Author
+  content: "Earlier this year, Vaniver recommended Bug Bounties for Advanced ML Systems.I\
+    \ spent a while at Rethink Priorities considering and expanding on this idea,\
+    \ suggesting potential program models, and assessing the benefits and risks of\
+    \ programs like this, which I've called 'AI Safety Bounties':Short summaryAI safety\
+    \ bounties are programs where public participants or approved security researchers\
+    \ receive rewards for identifying issues within powerful ML systems (analogous\
+    \ to bug bounties in cybersecurity). Safety bounties could be valuable for legitimizing\
+    \ examples of AI risks, bringing more talent to stress-test systems, and identifying\
+    \ common attack vectors.I expect safety bounties to be worth trialing for organizations\
+    \ working on reducing catastrophic AI risks. Traditional bug bounties seem fairly\
+    \ successful: they attract roughly one participant per $50 of prize money, and\
+    \ have become increasingly popular with software firms over time. The most analogous\
+    \ program for AI systems led to relatively few useful examples compared to other\
+    \ stress-testing methods, but one knowledgeable interviewee suggested that future\
+    \ programs could be significantly improved.However, I am not confident that bounties\
+    \ will continue to be net-positive as AI capabilities advance. At some point,\
+    \ I think the accident risk and harmful knowledge proliferation from open sourcing\
+    \ stress-testing may outweigh the benefits of bountiesIn my view, the most promising\
+    \ structure for such a program is a third party defining dangerous capability\
+    \ thresholds (\u201Cevals\u201D) and providing rewards for hunters who expose\
+    \ behaviors which cross these thresholds. I expect trialing such a program to\
+    \ cost up to $500k if well-resourced, and to take four months of operational and\
+    \ researcher time from safety-focused people.I also suggest two formats for lab-run\
+    \ bounties: open contests with subjective prize criteria decided on by a panel\
+    \ of judges, and private invitations for trusted bug hunters to test their internal\
+    \ systems.Author's note: This report was written between January and June 2023.\
+    \ Since then, safety bounties have become a more well-established part of the\
+    \ AI ecosystem, which I'm excited to see. Beyond defining and proposing safety\
+    \ bounties as a general intervention, I hope this report can provide useful analyses\
+    \ and design suggestions for readers already interested in implementing safety\
+    \ bounties, or in better understanding these programs.Long summaryIntroduction\
+    \ and bounty program recommendationsOne potential intervention for reducing catastrophic\
+    \ AI risk is AI safety bounties: programs where members of the public or approved\
+    \ security researchers receive rewards for identifying issues within powerful\
+    \ ML systems (analogous to bug bounties in cybersecurity). In this research report,\
+    \ I explore the benefits and downsides of safety bounties and conclude that safety\
+    \ bounties are probably worth the time and money to trial for organizations working\
+    \ on reducing the catastrophic risks of AI. In particular, testing a handful of\
+    \ new bounty programs could cost $50k-$500k per program and one to six months\
+    \ full-time equivalent from project managers at AI labs or from entrepreneurs\
+    \ interested in AI safety (depending on each program\u2019s model and ambition\
+    \ level).I expect safety bounties to be less successful for the field of AI safety\
+    \ than bug bounties are for cybersecurity, due to the higher difficulty of quickly\
+    \ fixing issues with AI systems. I am unsure whether bounties remain net-positive\
+    \ as AI capabilities increase to more dangerous levels. This is because, as AI\
+    \ capabilities increase, I expect safety bounties (and adversarial testing in\
+    \ general) to potentially generate more harmful behaviors. I also expect the benefits\
+    \ of the talent pipeline brought by safety bounties to diminish. I suggest an\
+    \ informal way to monitor the risks of safety bounties annually.The views in this\
+    \ report are largely formed based on information from:Interviews with experts\
+    \ in AI labs, AI existential safety, and bug bounty programs,\u201CToward Trustworthy\
+    \ AI Development: Mechanisms for Supporting Verifiable Claims\u201D by Brundage\
+    \ et al. arguing for \u201CBias and Safety Bounties\u201D (2020, page 16),A report\
+    \ from the Algorithmic Justice League analyzing the potential of bug bounties\
+    \ for mitigating algorithmic harms (Kenway et al., 2022),Reflections from the\
+    \ ChatGPT Feedback Contest.See the end of the report for a complete list of references.Based\
+    \ on these sources, I identify three types of bounty programs that seem practically\
+    \ possible now, that achieve more of the potential benefits of safety bounties\
+    \ and less of the potential risks than alternative programs I consider, and that\
+    \ would provide valuable information about how to run bounty programs if trialed.\
+    \ In order of my impression of their value in reducing catastrophic risks, the\
+    \ three types are:Independent organizations or governments set \u201Cevals\u201D\
+    -based standards for undesirable model behavior, and members of the public attempt\
+    \ to elicit this behavior from publicly-accessible models.Expert panels, organized\
+    \ by AI labs, subjectively judge which discoveries of model exploits to pay a\
+    \ bounty for, based on the lab's broad criteria.Potentially with an interactive\
+    \ grant-application process in which hunters propose issues to explore and organizers\
+    \ commit to awarding prizes for certain findings.Potentially with a convening\
+    \ body hosting multiple AI systems on one API, and hunters being able to test\
+    \ general state-of-the-art models.Trusted bug hunters test private systems, organized\
+    \ by labs in collaboration with security vetters, with a broad range of prize\
+    \ criteria. Certain successful and trusted members of the bounty hunting community\
+    \ (either the existing community of bug bounty hunters, or a new community of\
+    \ AI safety bounty hunters) are granted additional information about the training\
+    \ process, or temporary access - through security-enhancing methods - to additional\
+    \ features on top of those already broadly available. These would be targeted\
+    \ features that benefit adversarial research, such as seeing activation patterns\
+    \ or being able to finetune a model (Bucknall et al., forthcoming).I outline more\
+    \ specific visions for these programs just below. A more detailed analysis of\
+    \ these programs, including suggestions to mitigate their risks, is in the Recommendations\
+    \ section. This report does not necessarily constitute a recommendation for individuals\
+    \ to conduct the above stress-testing without an organizing body.I expect that\
+    \ some other bounty program models would also reduce risks from AI successfully\
+    \ and that AI labs will eventually develop better bounty programs than those suggested\
+    \ above. Nevertheless, the above three models are, in my current opinion, the\
+    \ best place to start. I expect organizers of safety bounties to be best able\
+    \ to determine which form of bounty program is most appropriate for their context,\
+    \ including tweaking these suggestions.This report generally focuses on how bounty\
+    \ programs would work with large language models (LLMs). However, I expect most\
+    \ of the bounty program models I recommend would work with other AI systems.Why\
+    \ and how to run AI safety bountiesBenefits. AI safety bounties may yield:Salient\
+    \ examples of AI dangers.Identification of talented individuals for AI safety\
+    \ work.A small number of novel insights into issues in existing AI systems.A backup\
+    \ to auditing and other expert stress-testing of AI systems.Key variables. When\
+    \ launching bounties, organizers should pay particular attention to the prize\
+    \ criteria, who sets up and manages the bounty program, and the level of access\
+    \ granted to bounty hunters.Risks. At current AI capability levels, I believe\
+    \ trialing bounty programs is unlikely to cause catastrophic AI accidents or significantly\
+    \ worsen AI misuse. The most significant downsides are:Opportunity cost for the\
+    \ organizers (most likely project managers at labs, AI safety entrepreneurs, or\
+    \ AI auditing organizations like the Alignment Research Center).Stifling examples\
+    \ of AI risks from being made public.Labs may require that bounty submissions\
+    \ be kept private. In that case, a bounty program would incentivize hunters, who\
+    \ would in any case explore AI models\u2019 edge cases, not to publish salient\
+    \ examples of AI danger.Trial programs are especially low-risk since the organizers\
+    \ can pause them at the first sign of bounty hunters generating dangerous outcomes\
+    \ as AI systems advance.The risks are higher if organizations regularly run (not\
+    \ just trial) bounties and as AI advances. Risks that become more important in\
+    \ those cases include:Leaking of sensitive details, such as information about\
+    \ training or model weights.Extremely harmful outputs generated by testing the\
+    \ AI system, such as successful human-prompted phishing scams or autonomous self-replication\
+    \ \u2013 analogous to gain of function research.For these reasons, I recommend\
+    \ the program organizers perform an annual review of the safety of allowing members\
+    \ of the public to engage in stress testing, monitoring:Whether, and to what extent,\
+    \ AI progress has made safety bounties (and adversarial testing in general) more\
+    \ dangerous,How much access it is therefore safe to give to bounty hunters.Further,\
+    \ I recommend not running bounties at dangerous levels of AI capability if bounties\
+    \ seem sufficiently risky. I think it possible, but unlikely, that this level\
+    \ of risk will arise in the future, depending on the level of progress made in\
+    \ securing AI systems.Other recommended practices for bounty organizersI recommend\
+    \ that organizations that set up safety bounties:Build incentives to take part\
+    \ in bounties, including non-financial incentives. This should involve building\
+    \ infrastructure, such as leaderboards and feedback loops, and fostering a community\
+    \ around bounties. Building this wider infrastructure is most valuable if organizers\
+    \ consider safety bounties to be worth running on an ongoing basis.Have a pre-announced\
+    \ disclosure policy for submissions.Share lessons learned about AI risks and AI\
+    \ safety bounty programs with leading AI developers.Consider PR risks from running\
+    \ safety bounties, and decide on framings to avoid misinterpretation.Independently\
+    \ assess legal risks of organizing a contest around another developer\u2019s AI\
+    \ system, if planning to organize a bounty independently.Outline of recommended\
+    \ modelsRecommended models, in order of recommendation, for safety bounties.1\_\
+    1. Evals-based2. Subjectively judged, organized by labs3. Trusted bug hunters\
+    \ test private systemsTarget systemsA wide range of AI systems \u2013 preferably\
+    \ with the system developers\u2019 consent and buy-inTesting of a particular AI\
+    \ model \u2013 with its developer\u2019s consent and engagementTesting of a particular\
+    \ AI model \u2013 preferably with its developer\u2019s consent and buy-inPrize\
+    \ criteriaDemonstrate (potentially dangerous) capabilities beyond those revealed\
+    \ by testers already partnering with labs, such as ARC EvalsConvince a panel of\
+    \ experts that the issue is worth dedicating resources toward solving.orDemonstrate\
+    \ examples of behaviors which the AI model\u2019s developer attempted to avoid\
+    \ through their alignment techniques.A broad range of criteria is possible (including\
+    \ those in the previous two models).Disclosure model \u2013 how private are submissions?Coordinated\
+    \ disclosure (Organizers default to publishing all submissions which are deemed\
+    \ safe)Coordinated disclosureCoordinated- or non-disclosureParticipation modelPublicPublicInvite\
+    \ onlyAccess levelPublic APIsPublic APIsInvited participants have access to additional\
+    \ resources \u2013 e.g., additional non-public information or tools within a private\
+    \ version of the APIWho manages the programEvals organization (e.g., ARC Evals),\
+    \ a new org., or an existing platform (e.g., HackerOne).AI organization, or a\
+    \ collaboration with an existing bounty platform (e.g., HackerOne).AI organization,\
+    \ or a collaboration with an existing bounty platform (e.g., HackerOne).Program\
+    \ durationOngoingOngoingTime-limitedPrize scope (how broad are the metrics for\
+    \ winning prizes)TargetedExpansiveMediumFinancial reward per prizeHigh (up to\
+    \ $1m)Low (up to $10k)Medium (up to $100k)Pre- or post- deploymentPost-deploymentPost-deploymentPotentially\
+    \ pre-deploymentAcknowledgementsThis report is a project of\_Rethink Priorities\u2013\
+    a think tank dedicated to informing decisions made by high-impact organizations\
+    \ and funders across various cause areas. The author is Patrick Levermore. Thanks\
+    \ to Ashwin Acharya and Amanda El-Dakhakhni for their guidance, Onni Aarne, Michael\
+    \ Aird, Marie Buhl, Shaun Ee, Erich Grunewald, Oliver Guest, Joe O\u2019Brien,\
+    \ Max R\xE4uker, Emma Williamson, Linchuan Zhang for their helpful feedback, all\
+    \ interviewees credited in the report for their insight, and Adam Papineau for\
+    \ copyediting.\_If you are interested in RP\u2019s work, please visit our\_research\
+    \ database and subscribe to our\_newsletter.\_\_I would be happy to discuss setting\
+    \ up AI safety bounties with those in a position to do so. I can provide contacts\
+    \ and resources to aid this, including\_this workbook. Contact me at patricklevermore\
+    \ at gmail dot com.\_Full report: AI Safety Bounties"
+  date: 24th Aug 2023
+  id: 855258c482b9a033ef7f580df269e768
+  publication: Algorithmic Justice League
+  tags: &id001
+  - justice
+  - bias
+  - advocacy
+  title: '11'
+  url: https://www.lesswrong.com/posts/iXECTEyC5PQuYM2aJ/ai-safety-bounties
+- author: Janus Rose
+  content: "Tech\t\t\n\n\u2018Coded Bias\u2019 Is the Most Important Film About AI\
+    \ You Can Watch Today\n\n\tBy Janus Rose\nApril 6, 2021, 9:00am\n\n\n\n\n\nShare:\n\
+    X\nFacebook\nShareCopied to clipboard\n\n\nBefore it was even released, Coded\
+    \ Bias was positioned to become essential viewing for anyone interested in the\
+    \ AI ethics debate. The documentary, which was released on Netflix this week,\
+    \ is the kind of film that can and should be shown in countless high school classrooms,\
+    \ where students themselves are subjected to various AI systems in the post-pandemic\
+    \ age of Zoom. It\u2019s a refreshingly digestible introduction to the myriad\
+    \ ways algorithmic bias has infiltrated every aspect of our lives\u2014from racist\
+    \ facial recognition and predictive policing systems to scoring software that\
+    \ decides who gets access to housing, loans, public assistance, and more.\n\n\n\
+    \n\nBut amid the recent high-profile firings of Timnit Gebru and others at Google\u2019\
+    s AI ethics team, the documentary seems like only one part of a deeper and ongoing\
+    \ story. If we understand algorithmic bias as a form of computationally-imposed\
+    \ ideology, rather than an unfortunate rounding error, we can\u2019t simply attack\
+    \ the symptoms. We need to challenge the existence of the racist and capitalist\
+    \ institutions that created those systems in the first place.\n\n\n\t\t\tVideos\
+    \ by VICE\t\t\n\n \n\nThe film follows Joy Buolamwini, a computer scientist and\
+    \ founder of the Algorithmic Justice League, an organization that she started\
+    \ after realizing that facial recognition systems weren\u2019t trained to recognize\
+    \ darker-skinned faces. Buolamwini is easily one of the most important figures\
+    \ in the AI field, and she serves as a gateway into a range of stories about how\
+    \ automation has imposed on us a robotic and unjust world\u2014albeit one that\
+    \ merely reflects and amplifies the pre-existing injustices brought about by racism,\
+    \ sexism, and capitalism.\n\n\n\n\nShowing the actual human impacts of algorithmic\
+    \ surveillance is always a challenge, but filmmaker Shalini Kantayya manages to\
+    \ navigate through a series of deeply compelling portraits: a celebrated teacher\
+    \ who was fired after receiving a low rating from an algorithmic assessment tool,\
+    \ and a group of tenants in Brooklyn who campaigned against their landlord after\
+    \ the installation of a facial recognition system in their building, to name a\
+    \ few.\nPerhaps the film\u2019s greatest feat is linking all of these stories\
+    \ to highlight a systemic problem: it\u2019s not just that the algorithms \u201C\
+    don\u2019t work,\u201D it\u2019s that they were built by the same mostly-male,\
+    \ mostly-white cadre of engineers, who took the oppressive models of the past\
+    \ and deployed them at scale. As author and mathematician Cathy O\u2019Neill points\
+    \ out in the film, we can\u2019t understand algorithms\u2014or technology in general\u2014\
+    without understanding the asymmetric power structure of those who write code versus\
+    \ those who have code imposed on them.\n\nIn discussions of AI, there is a tendency\
+    \ to think of algorithmic bias as an innocent whoopsie-daisy that can be iterated\
+    \ out. In reality, it\u2019s often people in positions of power imposing old,\
+    \ bad ideas like racist pseudoscience, using computers and math as a smokescreen\
+    \ to avoid accountability. After all, if the computer says it, it must be true.\n\
+    \n\n\nGiven the systemic nature of the problem, the film\u2019s ending feels anticlimactic.\
+    \ We see Buolamwini and others speaking at a pre-pandemic Congressional hearing\
+    \ on AI and algorithms, bringing the issue of algorithmic bias to the highest\
+    \ seats of power. But given the long and ineffective history of Congress tsk-tsking\
+    \ tech CEOs like Mark Zuckerberg, I was left wondering how a hearing translates\
+    \ into justice\u2014especially when injustice seems to be hard-wired into the\
+    \ business models of the tech companies shaping our algorithmic future.\n\nEven\
+    \ more interesting is how the film\u2019s timeline stops just before the firing\
+    \ (and subsequent smearing) of Timnit Gebru and other prominent AI ethics researchers\
+    \ at Google. Gebru, a celebrated data scientist who appears in the film, was terminated\
+    \ last year after co-authoring a paper which concluded that the large language\
+    \ models used in many AI systems have a significant environmental impact, as well\
+    \ as \u201Crisk of substantial harms, including stereotyping, denigration, increases\
+    \ in extremist ideology, and wrongful arrest.\u201D\nIn other words, the findings\
+    \ were a refutation of Google\u2019s core business model, which the company\u2019\
+    s senior leadership was none too interested in hearing. To many in the AI ethics\
+    \ field, the firings demonstrated the workings of racial capitalism\u2014how women\
+    \ of color in the tech industry are merely tolerated to achieve the appearance\
+    \ of diversity, and disposed of when they challenge the white-male power structure\
+    \ and its business model of endless surveillance.\nIf there is hope to be found\
+    \ at the film\u2019s conclusion, it lies in the brief mentions of grassroots activists\
+    \ who have successfully campaigned to ban facial recognition in cities across\
+    \ the country. But ultimately, the lessons we should draw from films like Coded\
+    \ Bias aren\u2019t about facial recognition, or any algorithm or technology in\
+    \ particular. It\u2019s about how the base operating system of our society will\
+    \ continue to produce new, more harmful technologies\u2014unless we dismantle\
+    \ it and create something better to put in its place.\n\n\n\n\nTagged:AI ethics,\
+    \ Algorithmic Bias, algorithms, facial-recognition, Predictive Policing, privacy,\
+    \ SURVEILLANCE, Timnit Gebru\nShare:\nX\nFacebook\nShareCopied to clipboard\n\n\
+    \n\n\n\nOne email. One story. Every week. Sign up for the VICE newsletter.By signing\
+    \ up, you agree to the Terms of Use and Privacy Policy & to receive electronic\
+    \ communications from VICE Media Group, which may include marketing promotions,\
+    \ advertisements and sponsored content.\n\n\n\n\nMoreLike This\n\nScreenshot:\
+    \ Shaun Cichacki\nWaypoint Weekend Episode 23: Seems Like Everybody Is French,\
+    \ All of a Sudden\n4 hours ago\n\n\tBy Shaun Cichacki, Anthony Franklin II, Ana\
+    \ Valens, and Brent Koepp\n\n\n\nOccult Blood\n3\_Black\_Metal\_Bands You Should\
+    \ Know But Probably Don\u2019t\n5 hours ago\n\n\tBy Stephen Andrew Galiher\n\n\
+    \n\nCredit: sorbetto/Getty Images\nThis Is What I Use to Back Up My Digital Life\u2014\
+    And It\u2019s 12% Off\n5 hours ago\n\n\tBy Matt Jancer\n\n\n\nCredit: Porzycki/NurPhoto\
+    \ via Getty Images\nReddit Adds AI to Its Search Bar, Lets Rest of Internet Know\
+    \ It Doesn\u2019t Need It Anymore\n5 hours ago\n\n\tBy Matt Jancer\n\n\n\nLook\
+    \ familiar? If this is you, then think about getting a better mouse \u2013 Credit:\
+    \ Delmaine Donson/Getty Images\nUse an Ergonomic Gaming Mouse to Reduce Wrist\
+    \ Pain, Even if You Don\u2019t Play Games\n5 hours ago\n\n\tBy Matt Jancer\n\n\
+    \n\nScreenshot: MSI\nThe MSI Claw 8 AI+ Is Big, Bold, and Beautiful, Even if That\
+    \ Price Tag Makes My Eyes Water (Review)\n9 hours ago\n\n\tBy Shaun Cichacki\n\
+    \n\n\n\n\n\n\nOne email. One story. Every week. Sign up for the VICE newsletter.By\
+    \ signing up, you agree to the Terms of Use and Privacy Policy & to receive electronic\
+    \ communications from VICE Media Group, which may include marketing promotions,\
+    \ advertisements and sponsored content.\n\n\n\n\n\n\n\n\nMoreFrom VICE\n\nSpotify\
+    \ on Apple's App Store. (Photo by Jakub Porzycki/NurPhoto)\nSpotify Gloats About\
+    \ Breaking Free From Apple, Promises More Transparent Pricing\n10 hours ago\n\n\
+    \tBy Matt Jancer\n\n\n\nScreenshot: Shaun Cichacki\nMiss the PS2 Era of Platformers?\
+    \ \u2018GearGrit\u2019 Is an Indie You Should Have Your Eyes On\n10 hours ago\n\
+    \n\tBy Shaun Cichacki\n\n\n\nScreenshot: Shady Corner Games\nI Can\u2019t Think\
+    \ of White Sauce the Same Way After Playing This Futanari Game\n10 hours ago\n\
+    \n\tBy Ana Valens\n\n\n\nZbynek Pospisil / Getty Images\nPlants \u2018Scream\u2019\
+    \ When They\u2019re Cut, We Just Couldn\u2019t Hear It. Until Now.\n11 hours ago\n\
+    \n\tBy Luis Prada"
+  date: '2021-04-06T13:00:00+00:00'
+  id: 5cefacf8ce938a7f515851070f7032c3
+  publication: Algorithmic Justice League
+  tags: *id001
+  title: "\u2018Coded Bias\u2019 Is the Most Important Film About AI You Can Watch\
+    \ Today"
+  url: https://www.vice.com/en/article/n7v8mx/coded-bias-netflix-documentary-ai-ethics-surveil
+- author: Unknown Author
+  content: Content not found
+  date: Unknown Date
+  id: 25b9440cf4080a3d12dcb246c5b058e2
+  publication: Algorithmic Justice League
+  tags: *id001
+  title: 'Category:'
+  url: https://www.sundance.org/blogs/artist-spotlight/when-the-future-is-now--on-understanding-ai-and-being-a-misfit-artist-in-a-family-of-scientists
+- author: Unknown Author
+  content: "Officials program iPads loaded with new facial-recognition scanners last\
+    \ year at Dulles International Airport. (Bill O'Leary/The Washington Post)By \
+    \ Drew HarwellFacial-recognition systems misidentified people of color more often\
+    \ than white people, a landmark federal study released Thursday shows, casting\
+    \ new doubts on a rapidly expanding investigative technique widely used by law\
+    \ enforcement across the United States.Asian and African American people were\
+    \ up to 100 times more likely to be misidentified than white men, depending on\
+    \ the particular algorithm and type of search. Native Americans had the highest\
+    \ false-positive rate of all ethnicities, according to the study, which found\
+    \ that systems varied widely in their accuracy.The faces of African American women\
+    \ were falsely identified more often in the kinds of searches used by police investigators\
+    \ where an image is compared to thousands or millions of others in hopes of identifying\
+    \ a suspect.Algorithms developed in the United States also showed high error rates\
+    \ for \u201Cone-to-one\u201D searches of Asians, African Americans, Native Americans\
+    \ and Pacific Islanders. Such searches are critical to functions including cellphone\
+    \ sign-ons and airport boarding schemes, and errors could make it easier for impostors\
+    \ to gain access to those systems.FBI, ICE find state driver\u2019s license photos\
+    \ are a gold mine for facial-recognition searchesWomen were more likely to be\
+    \ falsely identified than men, and the elderly and children were more likely to\
+    \ be misidentified than those in other age groups, the study found. Middle-aged\
+    \ white men generally benefited from the highest accuracy rates.AdvertisementThe\
+    \ National Institute of Standards and Technology, the federal laboratory known\
+    \ as NIST that develops standards for new technology, found \u201Cempirical evidence\u201D\
+    \ that most of the facial-recognition algorithms exhibit \u201Cdemographic differentials\u201D\
+    \ that can worsen their accuracy based on a person\u2019s age, gender or race.The\
+    \ study could fundamentally shake one of American law enforcement\u2019s fastest-growing\
+    \ tools for identifying criminal suspects and witnesses, which privacy advocates\
+    \ have argued is ushering in a dangerous new wave of government surveillance tools.The\
+    \ FBI alone has logged more than 390,000 facial-recognition searches of state\
+    \ driver\u2019s license records and other federal and local databases since 2011,\
+    \ federal records show. Members of Congress this year have voiced anger over the\
+    \ technology\u2019s lack of regulation and its potential for discrimination and\
+    \ abuse.Oregon became a testing ground for Amazon\u2019s facial-recognition policing.\
+    \ But what if Rekognition gets it wrong?Lawmakers on Thursday said they were alarmed\
+    \ by the \u201Cshocking results\u201D and called on the Trump administration to\
+    \ reassess its plans to expand facial recognition use inside the country and along\
+    \ its borders. Rep. Bennie G. Thompson (D-Miss.), chairman of the Committee on\
+    \ Homeland Security, said the report shows \u201Cfacial recognition systems are\
+    \ even more unreliable and racially biased than we feared.\u201DAdvertisementSen.\
+    \ Ron Wyden (D-Ore.) said the findings showed how \u201Calgorithms often carry\
+    \ all the biases and failures of human employees, but with even less judgment.\u201D\
+    \ In a statement, he added, \u201CAny company or government that deploys new technology\
+    \ has a responsibility to scrutinize their product for bias and discrimination\
+    \ at least as thoroughly as they\u2019d look for bugs in the software.\u201DSan\
+    \ Francisco, Oakland and two cities in Massachusetts, Somerville and Brookline,\
+    \ have passed bans this year on facial-recognition use by public officials. The\
+    \ state of California also banned the software\u2019s use in police body cameras.The\
+    \ federal report confirms previous studies from researchers who found similarly\
+    \ staggering error rates. Companies such as Amazon had criticized those studies,\
+    \ saying they reviewed outdated algorithms or used the systems improperly.AdvertisementOne\
+    \ of those researchers, Joy Buolamwini, said the study was a \u201Ccomprehensive\
+    \ rebuttal\u201D to skeptics of what researchers call \u201Calgorithmic bias.\u201D\
+    \u201CDifferential performance with a factor of up to 100?!?\u201D she wrote The\
+    \ Washington Post in an email Thursday. The study, she added, is \u201Ca sobering\
+    \ reminder that facial recognition technology has consequential technical limitations\
+    \ alongside posing threats to civil rights and liberties.\u201DInvestigators said\
+    \ they did not know what caused the gap but hoped the findings would, as NIST\
+    \ computer scientist Patrick Grother said in a statement, prove \u201Cvaluable\
+    \ to policymakers, developers and end users in thinking about the limitations\
+    \ and appropriate use of these algorithms.\u201DAmazon facial-identification software\
+    \ used by police falls short on tests for accuracy and bias, new research findsJay\
+    \ Stanley, a senior policy analyst at the American Civil Liberties Union, which\
+    \ sued federal agencies earlier this year for records related to how they use\
+    \ the technology, said the research showed why government leaders should immediately\
+    \ halt its use.Advertisement\u201COne false match can lead to missed flights,\
+    \ lengthy interrogations, tense police encounters, false arrests, or worse,\u201D\
+    \ he said. \u201CBut the technology\u2019s flaws are only one concern. Face recognition\
+    \ technology \u2014 accurate or not \u2014 can enable undetectable, persistent,\
+    \ and suspicionless surveillance on an unprecedented scale.\u201DNIST\u2019s test\
+    \ examined most of the industry\u2019s leading systems, including 189 algorithms\
+    \ voluntarily submitted by 99 companies, academic institutions and other developers.\
+    \ The algorithms form the central building blocks for most of the facial-recognition\
+    \ systems around the world.The algorithms came from a range of major tech companies\
+    \ and surveillance contractors, including Idemia, Intel, Microsoft, Panasonic,\
+    \ SenseTime and Vigilant Solutions. Notably absent from the list was Amazon, which\
+    \ develops its own software, Rekognition, for sale to local police and federal\
+    \ investigators to help track down suspects.AdvertisementNIST said Amazon did\
+    \ not submit its algorithm for testing. The company did not immediately offer\
+    \ comment but has said previously that its cloud-based service cannot be easily\
+    \ examined by NIST\u2019s test. Amazon founder and chief executive Jeff Bezos\
+    \ owns The Washington Post.Rashida Tlaib isn\u2019t the only one who thinks race\
+    \ biases facial recognition resultsGrother, the NIST lead researcher, said other\
+    \ companies with cloud-based systems had been able to submit their algorithms,\
+    \ including Microsoft, who he said \u201Csent us very capable and very reliable\
+    \ software.\u201D Of Amazon, he added: \u201COur test remains open if they elect\
+    \ to participate.\u201DThe NIST team tested the systems with about 18 million\
+    \ photos of more than 8 million people, all of which came from databases run by\
+    \ the State Department, the Department of Homeland Security and the FBI. No photos\
+    \ were taken from social media, video surveillance or the open Internet, they\
+    \ said.AdvertisementThe test studied both how algorithms work on \u201Cone-to-one\u201D\
+    \ matching, used for unlocking a phone or verifying a passport, and \u201Cone-to-many\u201D\
+    \ matching, used by police to scan for a suspect\u2019s face across a vast set\
+    \ of driver\u2019s license photos. Investigators tested both false negatives,\
+    \ in which the system fails to realize two identical faces are the same, as well\
+    \ as false positives, in which the system identifies two different faces as being\
+    \ the same \u2014 a dangerous failure for police, who could end up arresting an\
+    \ innocent person.ACLU sues FBI, DOJ over facial-recognition technology, criticizing\
+    \ \u2018unprecedented\u2019 surveillance and secrecySome algorithms produced few\
+    \ errors, but the disparity in accuracy between different systems could be enormous.\
+    \ There is no national regulation or standard for facial-recognition algorithms,\
+    \ and local law-enforcement agencies rely on a wide range of contractors and systems\
+    \ with different capabilities and levels of accuracy. The algorithms themselves\
+    \ \u2014 with names such as \u201Canyvision-004\u201D and \u201Cdidiglobalface-001\u2033\
+    \ \u2014 are almost entirely unknown to anyone outside the industry.Algorithms\
+    \ developed in Asian countries had smaller differences in error rates between\
+    \ white and Asian faces, suggesting a relationship \u201Cbetween an algorithm\u2019\
+    s performance and the data used to train it,\u201D the researchers said.\u201C\
+    You need to know your algorithm, know your data and know your use case,\u201D\
+    \ said Craig Watson, a manager at NIST. \u201CBecause that matters.\u201DSign\
+    \ up"
+  date: '2019-12-19T19:47:21.042Z'
+  id: 00d9935f0c6d07686b63deaafeb9aa81
+  publication: Algorithmic Justice League
+  tags: *id001
+  title: Federal study confirms racial bias of many facial-recognition systems, casts
+    doubt on their expanding use
+  url: https://www.washingtonpost.com/technology/2019/12/19/federal-study-confirms-racial-bias-many-facial-recognition-systems-casts-doubt-their-expanding-use/
