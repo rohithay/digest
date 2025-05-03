@@ -15,3 +15,41 @@ A tool for analyzing responsible AI publications to identify key themes, trends,
 * `app/` - For the Streamlit dashboard (placeholder)
 * `logs/` - For application logs
 * `output/` - For analysis results
+
+
+## Usage
+
+### Running the Full Pipeline
+
+```bash
+cd src
+python main.py --all
+```
+
+This will:
+1. Scrape articles from configured sources
+2. Analyze themes
+3. Export results
+
+### Running Individual Components
+
+```bash
+# Just scrape new data
+python main.py --scrape
+
+# Just analyze themes
+python main.py --analyze
+
+# Just export results
+python main.py --export
+```
+
+## Configuration
+
+### Adding Publications
+
+Edit `config/sources.yaml` to add new publications.
+
+### Modifying Themes
+
+Edit `config/themes.yaml` to modify the themes.
