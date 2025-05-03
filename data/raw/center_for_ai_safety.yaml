@@ -1,0 +1,83 @@
+- author: Unknown Author
+  content: Content not found
+  date: Unknown Date
+  id: 3c9dcd118dbb5691d62a8bc804807b5c
+  publication: Center for AI Safety
+  tags: &id001
+  - safety
+  - alignment
+  - research
+  title: CAIS Blog
+  url: https://www.safe.ai/blog
+- author: Unknown Author
+  content: Content not found
+  date: Unknown Date
+  id: 5d94348aa45dceda650a31cc9d093fbf
+  publication: Center for AI Safety
+  tags: *id001
+  title: Submit Your Toughest Questions for Humanity's Last Exam
+  url: https://www.safe.ai/blog/humanitys-last-exam
+- author: Unknown Author
+  content: Content not found
+  date: Unknown Date
+  id: 1fa5db50aa6315b4e6833ea5feb0e3d6
+  publication: Center for AI Safety
+  tags: *id001
+  title: Superhuman Automated Forecasting
+  url: https://www.safe.ai/blog/forecasting
+- author: Unknown Author
+  content: Content not found
+  date: Unknown Date
+  id: 74010e5828b9ac7db361c805d338331a
+  publication: Center for AI Safety
+  tags: *id001
+  title: AI Safety, Ethics, and Society
+  url: https://www.safe.ai/blog/ai-safety-ethics-and-society
+- author: Unknown Author
+  content: Content not found
+  date: Unknown Date
+  id: d73375232730dff6b403201df4c82af1
+  publication: Center for AI Safety
+  tags: *id001
+  title: 'Representation Engineering: a New Way of Understanding Models'
+  url: https://www.safe.ai/blog/representation-engineering-a-new-way-of-understanding-models
+- author: Unknown Author
+  content: Content not found
+  date: Unknown Date
+  id: 2ff98d7beef7fe58a5b6b687a48735e0
+  publication: Center for AI Safety
+  tags: *id001
+  title: A Bird's Eye View of the ML Field
+  url: https://www.safe.ai/blog/a-birds-eye-view-of-the-ml-field
+- author: Unknown Author
+  content: Content not found
+  date: Unknown Date
+  id: 964d62f130c5b59367ef5e1801cdc17f
+  publication: Center for AI Safety
+  tags: *id001
+  title: 'Cybersecurity and AI: The Evolving Security Landscape'
+  url: https://www.safe.ai/blog/cybersecurity-and-ai-the-evolving-security-landscape
+- author: Unknown Author
+  content: Content not found
+  date: Unknown Date
+  id: f253e877bce0d71261ab0cde7dc47674
+  publication: Center for AI Safety
+  tags: *id001
+  title: 'The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning'
+  url: https://www.safe.ai/blog/wmdp-benchmark
+- author: Unknown Author
+  content: Content not found
+  date: Unknown Date
+  id: f39d5d9a2d5c3b46ad31c0399e2df67a
+  publication: Center for AI Safety
+  tags: *id001
+  title: Devising ML Metrics
+  url: https://www.safe.ai/blog/devising-ml-metrics
+- author: Unknown Author
+  content: Content not found
+  date: Unknown Date
+  id: 291803801f1739947b47d7369695b568
+  publication: Center for AI Safety
+  tags: *id001
+  title: 'Biosecurity and AI: Risks and Opportunities'
+  url: https://www.safe.ai/blog/biosecurity-and-ai-risks-and-opportunities
