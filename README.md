@@ -19,8 +19,8 @@ A tool for analyzing responsible AI publications to identify key themes, trends,
 ## Getting Started
 1. Clone the repository
 2. Install dependencies (BeautifulSoup, PyTorch, Transformers, Streamlit, etc.)
-3. Run the full pipeline with python main.py --all
-4. Launch the dashboard with streamlit run app.py
+3. Run the full pipeline with `python main.py --all`
+4. Launch the dashboard with `streamlit run app.py`
 
 ## How It Works
 1. The scraper collects articles from configured sources
