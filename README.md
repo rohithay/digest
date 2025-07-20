@@ -25,11 +25,6 @@ cd src
 python main.py --all
 ```
 
-This will:
-1. Scrape articles from configured sources
-2. Analyze themes
-3. Export results
-
 ### Running Individual Components
 
 ```bash
