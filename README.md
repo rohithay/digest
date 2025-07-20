@@ -1,4 +1,4 @@
-# AI Ethics Publication Analyzer
+# digest
 A tool for analyzing responsible AI publications to identify key themes, trends, and summaries. It's designed to help researchers and practitioners stay current with the evolving field of AI ethics.
 
 ## Getting Started
