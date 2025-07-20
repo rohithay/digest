@@ -29,7 +29,7 @@ python main.py --analyze
 python main.py --export
 ```
 
-## Configuration
+## Contribute
 
 ### Adding Publications
 
