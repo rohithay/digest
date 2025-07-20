@@ -1,15 +1,6 @@
 # AI Ethics Publication Analyzer
 A tool for analyzing responsible AI publications to identify key themes, trends, and summaries. It's designed to help researchers and practitioners stay current with the evolving field of AI ethics.
 
-## Project Structure
-* `config/` - Configuration files for sources and themes
-* `data/` - Directory for raw and processed data
-* `src/` - Source code with scrapers and analyzers
-* `notebooks/` - For Jupyter notebooks (placeholder)
-* `app/` - For the Streamlit dashboard (placeholder)
-* `logs/` - For application logs
-* `output/` - For analysis results
-
 ## Getting Started
 1. Clone the repository
 2. Install dependencies
