@@ -7,7 +7,7 @@ A tool for analyzing responsible AI publications to identify key themes, trends,
 3. Run the full pipeline with `python main.py --all`
 4. Launch the dashboard with `streamlit run app.py`
 
-## Usage
+## Use
 
 ### Running the Full Pipeline
 
